@@ -1,5 +1,5 @@
 @charset "UTF-8"
-*{
+* {
     margin: 0px;
     padding: 0px;
    font-family: Arial, Helvetica, sans-serif; 
@@ -30,4 +30,11 @@ top: 50%;
 left: 50%;
 transform: translate(-50%,-50%);
 background: url('../imagens/frame-iphone.png') no-repeat ;
+}
+iframe#tela{
+position: relative;
+top:80px ;
+left: 22px;
+width:269px ;
+height: 471px;
 }
